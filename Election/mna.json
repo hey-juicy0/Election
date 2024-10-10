@@ -1,0 +1,45 @@
+[
+    {
+        "number": 1,
+        "name": "곽상언",
+        "party": "더불어민주당",
+        "color": "#152484"
+    },
+    {
+        "number": 2,
+        "name": "최재형",
+        "party": "국민의힘",
+        "color": "#E61E2B"
+    },
+    {
+        "number": 6,
+        "name": "진예찬",
+        "party": "새로운미래",
+        "color": "#45BABD"
+    },
+    {
+        "number": 7,
+        "name": "금태섭",
+        "party": "개혁신당",
+        "color": "#FF7210"
+    },
+    {
+        "number": 8,
+        "name": "김준수",
+        "party": "가락특권폐지당",
+        "color": "#FF8C00"
+    },
+    {
+        "number": 9,
+        "name": "김종갑",
+        "party": "대한국민당",
+        "color": "#51a776"
+    },
+    {
+        "number": 10,
+        "name": "차은정",
+        "party": "민중민주당",
+        "color": "#8D2650"
+    }
+    
+]
