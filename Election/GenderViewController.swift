@@ -11,12 +11,17 @@ struct Research{
     var birthYear:Int?
     var MNA:Int?
     var PR:Int?
-    var color:String?
 }
 class GenderViewController: UIViewController {
-
+    @IBOutlet weak var femaleButton: UIButton!
+    @IBOutlet weak var maleButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        femaleButton.layer.masksToBounds = true
+        femaleButton.layer.cornerRadius = 30
+        maleButton.layer.masksToBounds = true
+        maleButton.layer.cornerRadius = 30
     }
     
     @IBAction func femalePressed(_ sender: UIButton) {

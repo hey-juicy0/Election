@@ -20,11 +20,20 @@ class BirthViewController: UIViewController {
 
     }
     @IBAction func birthPressed(_ sender: UIButton) {
-        let birthYear = Int(birthTextField.text ?? "1999")
-        let user = Research(birthYear: birthYear)
+        guard let birthYearText = birthTextField.text,
+                  let birthYear = Int(birthYearText),
+                  (1900...2006).contains(birthYear) else {
+            showAlert(message: "올바른 연도를 입력하세요.")
+            return }
+        research?.birthYear = Int(birthYear)
         guard let viewController = self.storyboard?.instantiateViewController(withIdentifier: "MNAViewController") as? MNAViewController else { return }
         viewController.research = research
         self.navigationController?.pushViewController(viewController, animated: true)
+    }
+    func showAlert(message: String) {
+        let alert = UIAlertController(title: nil, message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "확인", style: .default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
     
 

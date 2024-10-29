@@ -38,15 +38,26 @@ class MainViewController: UIViewController {
         researchButton.layer.masksToBounds = true
         researchButton.layer.cornerRadius = 30
         
-        imageView.isUserInteractionEnabled = true
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(imageTapped))
-        imageView.addGestureRecognizer(tapGesture)
-        
     }
-    
-    @objc func imageTapped(){
-        
+
+    @IBAction func longPressed(_ sender: UILongPressGestureRecognizer) {
+        if sender.state == .began {
+            let alert = UIAlertController(title: nil, message: "설정으로 이동하시겠습니까?", preferredStyle: .alert)
+
+            let yesAction = UIAlertAction(title: "네", style: .destructive) { _ in
+                guard let viewController = self.storyboard?.instantiateViewController(withIdentifier: "PlaceViewController") else { return }
+                self.navigationController?.pushViewController(viewController, animated: true)
+            }
+
+            let noAction = UIAlertAction(title: "아니오", style: .default, handler: nil)
+
+            alert.addAction(yesAction)
+            alert.addAction(noAction)
+
+            present(alert, animated: true, completion: nil)
+        }
     }
+
     @IBAction func plusButton(_ sender: UIButton) {
         if fiveCount >= 4{
             if isResearched{
@@ -87,14 +98,17 @@ class MainViewController: UIViewController {
         totalCount += 1
         currentLabel.text = String(fiveCount) // 현재 카운트 업데이트
         totalLabel.text = String(totalCount)
-        researchButton.isEnabled = false
+
         researchButton.backgroundColor = originalColor
 
         researchCount += 1
         researchLabel.text = String(researchCount)
         isResearched = true
         
-        guard let viewController = self.storyboard?.instantiateViewController(withIdentifier: "스토리보드 아이디") else{return}
+
+        guard let viewController = self.storyboard?.instantiateViewController(withIdentifier: "GenderViewController") else{return}
+        fiveCount = 0
+        currentLabel.text = String(fiveCount)
         self.navigationController?.pushViewController(viewController, animated: true)
     }
     

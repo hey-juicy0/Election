@@ -1,0 +1,39 @@
+[
+    {
+        "number": 3,
+        "party": "더불어민주연합",
+        "color": "#152484"
+    },
+    {
+        "number": 4,
+        "party": "국민의미래",
+        "color": "#E61E2B"
+    },
+    {
+        "number":5,
+        "party": "녹색정의당",
+        "color": "#007C36"
+    },
+    {
+        "number": 6,
+        "party": "새로운미래",
+        "color": "#45BABD"
+    },
+    {
+        "number": 7,
+        "party": "개혁신당",
+        "color": "#FF7210"
+    },
+    {
+        "number": 8,
+        "party": "자유통일당",
+        "color": "#0958A7"
+        
+    },
+    {
+        "number": 9,
+        "party": "조국혁신당",
+        "color": "#0073CF"
+    }
+    
+]

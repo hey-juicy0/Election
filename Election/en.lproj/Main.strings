@@ -1,0 +1,150 @@
+
+/* Class = "UILabel"; text = "관리자 모드"; ObjectID = "069-A0-Aze"; */
+"069-A0-Aze.text" = "관리자 모드";
+
+/* Class = "UIViewController"; title = "출생 연도"; ObjectID = "0rj-pt-NKe"; */
+"0rj-pt-NKe.title" = "출생 연도";
+
+/* Class = "UILabel"; text = "정당 이름 들어갈 자리"; ObjectID = "3vX-Kh-bBx"; */
+"3vX-Kh-bBx.text" = "정당 이름 들어갈 자리";
+
+/* Class = "UILabel"; text = "누적 인원"; ObjectID = "45d-DN-S6r"; */
+"45d-DN-S6r.text" = "누적 인원";
+
+/* Class = "UIViewController"; title = "비례대표 국회의원"; ObjectID = "7Qy-Vl-fWn"; */
+"7Qy-Vl-fWn.title" = "비례대표 국회의원";
+
+/* Class = "UILabel"; text = "투표소 코드"; ObjectID = "88O-4l-YIO"; */
+"88O-4l-YIO.text" = "투표소 코드";
+
+/* Class = "UILabel"; text = "현재 위치한 투표소"; ObjectID = "8Zt-fG-cGs"; */
+"8Zt-fG-cGs.text" = "현재 위치한 투표소";
+
+/* Class = "UILabel"; text = "담당자"; ObjectID = "9tl-hz-IEw"; */
+"9tl-hz-IEw.text" = "담당자";
+
+/* Class = "UIButton"; configuration.title = "조사하기"; ObjectID = "BHX-NP-Le3"; */
+"BHX-NP-Le3.configuration.title" = "조사하기";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "BHX-NP-Le3"; */
+"BHX-NP-Le3.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "+"; ObjectID = "G3l-zX-8u7"; */
+"G3l-zX-8u7.configuration.title" = "+";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "G3l-zX-8u7"; */
+"G3l-zX-8u7.normalTitle" = "Button";
+
+/* Class = "UIViewController"; title = "투표소"; ObjectID = "Ic1-sz-ond"; */
+"Ic1-sz-ond.title" = "투표소";
+
+/* Class = "UILabel"; text = "당신이 태어난 연도는 무엇인가요?"; ObjectID = "JlJ-Eg-3Ed"; */
+"JlJ-Eg-3Ed.text" = "당신이 태어난 연도는 무엇인가요?";
+
+/* Class = "UIButton"; configuration.title = "여성"; ObjectID = "M1n-nn-caq"; */
+"M1n-nn-caq.configuration.title" = "여성";
+
+/* Class = "UIButton"; normalTitle = "여성"; ObjectID = "M1n-nn-caq"; */
+"M1n-nn-caq.normalTitle" = "여성";
+
+/* Class = "UILabel"; text = "번호"; ObjectID = "MkQ-Ph-hMQ"; */
+"MkQ-Ph-hMQ.text" = "번호";
+
+/* Class = "UILabel"; text = "업데이트 시각"; ObjectID = "N01-9E-Mg9"; */
+"N01-9E-Mg9.text" = "업데이트 시각";
+
+/* Class = "UIButton"; configuration.title = "변경"; ObjectID = "PaH-43-2eR"; */
+"PaH-43-2eR.configuration.title" = "변경";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "PaH-43-2eR"; */
+"PaH-43-2eR.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Qhq-cx-wEm"; */
+"Qhq-cx-wEm.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WmO-zS-99D"; */
+"WmO-zS-99D.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "비례대표 국회의원"; ObjectID = "ZXZ-j2-NmJ"; */
+"ZXZ-j2-NmJ.text" = "비례대표 국회의원";
+
+/* Class = "UILabel"; text = "총"; ObjectID = "b6Y-bB-kgV"; */
+"b6Y-bB-kgV.text" = "총";
+
+/* Class = "UIButton"; configuration.title = "변경"; ObjectID = "deQ-iX-Oo7"; */
+"deQ-iX-Oo7.configuration.title" = "변경";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "deQ-iX-Oo7"; */
+"deQ-iX-Oo7.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "제22대 국회의원 선거"; ObjectID = "eER-Ob-22d"; */
+"eER-Ob-22d.text" = "제22대 국회의원 선거";
+
+/* Class = "UILabel"; text = "Count"; ObjectID = "exs-wX-Qp2"; */
+"exs-wX-Qp2.text" = "Count";
+
+/* Class = "UILabel"; text = "이름"; ObjectID = "fQe-nC-WKF"; */
+"fQe-nC-WKF.text" = "이름";
+
+/* Class = "UILabel"; text = "조사"; ObjectID = "fyr-vp-TL1"; */
+"fyr-vp-TL1.text" = "조사";
+
+/* Class = "UIButton"; configuration.title = "확인"; ObjectID = "hAT-gQ-QMq"; */
+"hAT-gQ-QMq.configuration.title" = "확인";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hAT-gQ-QMq"; */
+"hAT-gQ-QMq.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "데이터 업로드"; ObjectID = "hX4-J2-dRL"; */
+"hX4-J2-dRL.text" = "데이터 업로드";
+
+/* Class = "UILabel"; text = "정당 이름 들어갈 자리"; ObjectID = "jNd-De-rGx"; */
+"jNd-De-rGx.text" = "정당 이름 들어갈 자리";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "k4S-ku-QWv"; */
+"k4S-ku-QWv.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "변경"; ObjectID = "kt7-Ef-no1"; */
+"kt7-Ef-no1.configuration.title" = "변경";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "kt7-Ef-no1"; */
+"kt7-Ef-no1.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "남성"; ObjectID = "nAY-gm-V3R"; */
+"nAY-gm-V3R.configuration.title" = "남성";
+
+/* Class = "UIButton"; normalTitle = "남성"; ObjectID = "nAY-gm-V3R"; */
+"nAY-gm-V3R.normalTitle" = "남성";
+
+/* Class = "UILabel"; text = "제22대 국회의원 선거"; ObjectID = "nap-kI-Rno"; */
+"nap-kI-Rno.text" = "제22대 국회의원 선거";
+
+/* Class = "UILabel"; text = "관리자"; ObjectID = "qCd-Wf-GPN"; */
+"qCd-Wf-GPN.text" = "관리자";
+
+/* Class = "UIButton"; configuration.title = "-"; ObjectID = "qmP-i5-oxg"; */
+"qmP-i5-oxg.configuration.title" = "-";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "qmP-i5-oxg"; */
+"qmP-i5-oxg.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "지역구 국회의원"; ObjectID = "r63-tb-b7G"; */
+"r63-tb-b7G.text" = "지역구 국회의원";
+
+/* Class = "UILabel"; text = "당신이 투표한 국회의원은 누구인가요?"; ObjectID = "tVC-Ek-ET9"; */
+"tVC-Ek-ET9.text" = "당신이 투표한 국회의원은 누구인가요?";
+
+/* Class = "UILabel"; text = "당신의 성별은 무엇인가요?"; ObjectID = "u8K-Lf-L5h"; */
+"u8K-Lf-L5h.text" = "당신의 성별은 무엇인가요?";
+
+/* Class = "UIViewController"; title = "지역구 국회의원"; ObjectID = "vkX-eK-EPR"; */
+"vkX-eK-EPR.title" = "지역구 국회의원";
+
+/* Class = "UIViewController"; title = "성별"; ObjectID = "wTK-aX-7bR"; */
+"wTK-aX-7bR.title" = "성별";
+
+/* Class = "UILabel"; text = "당신이 투표한 비례대표는 어디인가요?"; ObjectID = "x6M-gN-agw"; */
+"x6M-gN-agw.text" = "당신이 투표한 비례대표는 어디인가요?";
+
+/* Class = "UILabel"; text = "번호"; ObjectID = "ytm-ai-bwo"; */
+"ytm-ai-bwo.text" = "번호";

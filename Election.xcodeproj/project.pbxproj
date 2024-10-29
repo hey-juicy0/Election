@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E32CB0B2CCBEF2B009D170A /* pr.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E32CB0A2CCBEF2B009D170A /* pr.json */; };
+		6E32CB302CCBF5E3009D170A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E32CB2F2CCBF5E3009D170A /* GoogleService-Info.plist */; };
 		6E6362AF2CB8488100ACDA69 /* PRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6362AE2CB8488100ACDA69 /* PRViewController.swift */; };
 		6E6362B12CB84A7600ACDA69 /* mna.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E6362B02CB84A7600ACDA69 /* mna.json */; };
 		6E6362B32CB84FAF00ACDA69 /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6362B22CB84FAF00ACDA69 /* PlaceViewController.swift */; };
@@ -22,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E32CB0A2CCBEF2B009D170A /* pr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pr.json; sourceTree = "<group>"; };
+		6E32CB2F2CCBF5E3009D170A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E32CB352CCBF82F009D170A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		6E6362AE2CB8488100ACDA69 /* PRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRViewController.swift; sourceTree = "<group>"; };
 		6E6362B02CB84A7600ACDA69 /* mna.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mna.json; sourceTree = "<group>"; };
 		6E6362B22CB84FAF00ACDA69 /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +73,7 @@
 		6E9B71A42C94376400BE4E98 /* Election */ = {
 			isa = PBXGroup;
 			children = (
+				6E32CB2F2CCBF5E3009D170A /* GoogleService-Info.plist */,
 				6E6362B02CB84A7600ACDA69 /* mna.json */,
 				6E6362AE2CB8488100ACDA69 /* PRViewController.swift */,
 				6E88D6802CB841BA005C776C /* MNAViewController.swift */,
@@ -81,6 +87,7 @@
 				6E9B71AE2C94376500BE4E98 /* Assets.xcassets */,
 				6E9B71B02C94376500BE4E98 /* LaunchScreen.storyboard */,
 				6E9B71B32C94376500BE4E98 /* Info.plist */,
+				6E32CB0A2CCBEF2B009D170A /* pr.json */,
 			);
 			path = Election;
 			sourceTree = "<group>";
@@ -101,6 +108,8 @@
 			dependencies = (
 			);
 			name = Election;
+			packageProductDependencies = (
+			);
 			productName = Election;
 			productReference = 6E9B71A22C94376400BE4E98 /* Election.app */;
 			productType = "com.apple.product-type.application";
@@ -129,6 +138,8 @@
 				Base,
 			);
 			mainGroup = 6E9B71992C94376400BE4E98;
+			packageReferences = (
+			);
 			productRefGroup = 6E9B71A32C94376400BE4E98 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,7 +157,9 @@
 				6E6362B12CB84A7600ACDA69 /* mna.json in Resources */,
 				6E9B71AF2C94376500BE4E98 /* Assets.xcassets in Resources */,
 				6E9B71B22C94376500BE4E98 /* Base in Resources */,
+				6E32CB0B2CCBEF2B009D170A /* pr.json in Resources */,
 				6E9B71AD2C94376400BE4E98 /* Base in Resources */,
+				6E32CB302CCBF5E3009D170A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +188,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6E9B71AC2C94376400BE4E98 /* Base */,
+				6E32CB352CCBF82F009D170A /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -319,11 +333,13 @@
 				DEVELOPMENT_TEAM = 9R69P62SDC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Election/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "출구조사";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -351,11 +367,13 @@
 				DEVELOPMENT_TEAM = 9R69P62SDC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Election/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "출구조사";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
