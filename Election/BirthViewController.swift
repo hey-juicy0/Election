@@ -17,6 +17,7 @@ class BirthViewController: UIViewController {
         super.viewDidLoad()
         stack.layer.masksToBounds = true
         stack.layer.cornerRadius = 30
+        self.navigationController?.navigationBar.topItem?.backButtonTitle = "뒤로"
 
     }
     @IBAction func birthPressed(_ sender: UIButton) {

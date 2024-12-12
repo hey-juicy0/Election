@@ -14,6 +14,8 @@ class MainViewController: UIViewController {
     var researchCount = 0
     var originalColor: UIColor?
     var isResearched = false
+    let placeCode = UserDefaults.standard.string(forKey: "placeCode")
+
     
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var researchLabel: UILabel!

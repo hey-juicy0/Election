@@ -24,9 +24,10 @@ class MNAViewController: UIViewController, UITableViewDataSource, UITableViewDel
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationController?.navigationBar.topItem?.backButtonTitle = "뒤로"
         tableView.dataSource = self
         tableView.delegate = self
+        
 
         if let load = loadJSON() {
             Mna = load

@@ -22,6 +22,8 @@ class GenderViewController: UIViewController {
         femaleButton.layer.cornerRadius = 30
         maleButton.layer.masksToBounds = true
         maleButton.layer.cornerRadius = 30
+        self.navigationController?.navigationBar.topItem?.backButtonTitle = "뒤로"
+
     }
     
     @IBAction func femalePressed(_ sender: UIButton) {
